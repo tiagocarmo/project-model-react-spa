@@ -8,7 +8,7 @@ import NotFound from './components/pages/NotFound';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/react-spa'>
       <Switch>
         <Route path="/" exact={true} component={Home} />
         <Route path="/about" exact={true} component={About} />
